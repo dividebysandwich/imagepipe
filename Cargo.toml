@@ -21,10 +21,7 @@ blake3 = "1"
 log = "0.4"
 num-traits = "0.2"
 image = "0.24"
-
-[dependencies.rawler]
-version = "0.6.0"
-path = "../dnglab/rawler"
+rawler = { git = "https://github.com/dividebysandwich/dnglab" }
 
 [dependencies.multicache]
 version = "0.6.0"
